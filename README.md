@@ -1,7 +1,7 @@
 # selenium_automater
 Python script to automate web app flow, can be used for automated testing, playing a sequence of steps in chrome
 
-## prerequites
+## Prerequites
 Take a look at setup/setup.txt
 
 ## Why?
@@ -18,7 +18,10 @@ click search with xpath (//INPUT[@value='Google Search'])[2]
 click images with xpath //A[@class='q qs'][text()='Images']
 ```
 
-Explanation : 
+### Explanation : 
+
+The command `open` has the following syntax :
+open message url
 
 
 
