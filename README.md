@@ -1,5 +1,5 @@
 # selenium_automater
-Python script to automate web app flow, can be used for automated testing, playing a sequence of steps in chrome. It can also download and save the downloaded content to a directory.
+Python script to automate web app flow, can be used for automated testing, playing a sequence of steps in chrome. It can also download content.
 
 ## Prerequites
 Take a look at setup/setup.txt
