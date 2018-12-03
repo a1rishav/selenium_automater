@@ -36,12 +36,11 @@ Commands and syntax:
     
 ### Configs :
 
-APP_HOME = "/home/rishav/work/pycharmProjects/app_automation" {project home directory}
-SCRIPTS_DIR = path.join(APP_HOME, "automater_scripts") {directory to store intruction sequences}
-
-DOWNLOAD_DIR = "downloads" {directory to store downloaded content}
-LOGS_DIR = "logs" {directory name to save logs}
-DRIVER = 'chromedriver' {driver being used}
+  - APP_HOME = "/home/rishav/work/pycharmProjects/app_automation" {project home directory}
+  - SCRIPTS_DIR = path.join(APP_HOME, "automater_scripts") {directory to store intruction sequences}
+  - DOWNLOAD_DIR = "downloads" {directory to store downloaded content}
+  - LOGS_DIR = "logs" {directory name to save logs}
+  - DRIVER = 'chromedriver' {tested driver}
 
 
 ### Suggestions :
