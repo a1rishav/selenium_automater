@@ -32,7 +32,17 @@ Commands and syntax:
     - `xpath_value`can be replaced by `class_value` or `id_value`
   - click
     - syntax --> `click` message `with` `xpath` `xpath_value`
-    
+  - sleep 
+    - syntax --> `sleep` `sleep_duration_in_secs`
+    - this adds a sleep for the specified duration
+    - Eg. sleep 10
+  - run
+    - syntax --> `run` `mode`
+    - the supported modes are headless (withput ui) and the browser
+    - Eg. run headless
+  - refresh
+    - syntax --> `refresh`
+    - refreshes page
     
 ### Configs :
 
