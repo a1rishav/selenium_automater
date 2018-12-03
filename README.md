@@ -1,5 +1,5 @@
 # selenium_automater
-Python script to automate web app flow, can be used for automated testing, playing a sequence of steps in chrome
+Python script to automate web app flow, can be used for automated testing, playing a sequence of steps in chrome. It can also download and save the downloaded content to a directory.
 
 ## Prerequites
 Take a look at setup/setup.txt
@@ -24,9 +24,32 @@ Commands and syntax:
   - open 
     - syntax --> `open` message `url`
     - message can be any string
+    - messages make instructions meaningful
   - set 
-   - used while entering some input like username, password or search string
-   - syntax --> `set` message `keyword_to_be_set` `with` `xpath` `xpath_value`
+    - used while entering some input like username, password or search string
+    - syntax --> `set` message `keyword_to_be_set` `with` `xpath` `xpath_value`
+    - `xpath` can be replaced by `class` or `id`
+    - `xpath_value`can be replaced by `class_value` or `id_value`
+  - click
+    - syntax --> `click` message `with` `xpath` `xpath_value`
+    
+    
+### Configs :
+
+APP_HOME = "/home/rishav/work/pycharmProjects/app_automation" {project home directory}
+SCRIPTS_DIR = path.join(APP_HOME, "automater_scripts") {directory to store intruction sequences}
+
+DOWNLOAD_DIR = "downloads" {directory to store downloaded content}
+LOGS_DIR = "logs" {directory name to save logs}
+DRIVER = 'chromedriver' {driver being used}
+
+
+### Suggestions :
+This plugin helps in knowing the relative xpaths of elements --> https://chrome.google.com/webstore/detail/relative-xpath-helper/eanaofphbanknlngejejepmfomkjaiic
+
+    
+      
+    
    
 
 
