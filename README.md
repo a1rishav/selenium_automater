@@ -21,7 +21,8 @@ click images with xpath //A[@class='q qs'][text()='Images']
 ### Explanation : 
 
 The command `open` has the following syntax :
-open message url
+  open message url
+  - 
 
 
 
