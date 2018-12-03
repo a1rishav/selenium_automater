@@ -1,6 +1,6 @@
 Download chrome driver or use the downloaded driver in setup/ -->
     wget https://chromedriver.storage.googleapis.com/2.43/chromedriver_linux64.zip
 Place the downloaded driver in --> /usr/local/bin/
-Run --> pip install -r requirements.txt
+Run --> pip install selenium
 
 
