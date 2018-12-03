@@ -1,0 +1,5 @@
+open google search https://www.google.com/
+set search string "hello world" with xpath //INPUT[@class='gLFyf gsfi']
+click search with xpath (//INPUT[@value='Google Search'])[2]
+click images with xpath //A[@class='q qs'][text()='Images']
+
