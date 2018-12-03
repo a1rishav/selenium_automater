@@ -20,9 +20,14 @@ click images with xpath //A[@class='q qs'][text()='Images']
 
 ### Explanation : 
 
-The command `open` has the following syntax :
-  open message url
-  - 
+Commands and syntax:
+  - open 
+    - syntax --> `open` message `url`
+    - message can be any string
+  - set 
+   - used while entering some input like username, password or search string
+   - syntax --> `set` message `keyword_to_be_set` `with` `xpath` `xpath_value`
+   
 
 
 
