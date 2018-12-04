@@ -18,7 +18,7 @@ click search with xpath (//INPUT[@value='Google Search'])[2]
 click images with xpath //A[@class='q qs'][text()='Images']
 ```
 
-### Explanation : 
+### Explanation 
 
 Commands and syntax:
   - open 
@@ -44,7 +44,7 @@ Commands and syntax:
     - syntax --> `refresh`
     - refreshes page
     
-### Configs :
+### Configs
 
   - APP_HOME = "/home/rishav/work/pycharmProjects/app_automation" {project home directory}
   - SCRIPTS_DIR = path.join(APP_HOME, "automater_scripts") {directory to store intruction sequences}
@@ -53,7 +53,7 @@ Commands and syntax:
   - DRIVER = 'chromedriver' {tested driver}
 
 
-### Suggestions :
+### Suggestions 
 This plugin helps in knowing the relative xpaths of elements --> https://chrome.google.com/webstore/detail/relative-xpath-helper/eanaofphbanknlngejejepmfomkjaiic
 
     
